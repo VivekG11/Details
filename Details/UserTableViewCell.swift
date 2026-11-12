@@ -35,10 +35,10 @@ final class UserTableViewCell: UITableViewCell {
         contentView.addSubview(stack)
 
         NSLayoutConstraint.activate([
-            stack.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 10),
+            stack.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 15),
             stack.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 16),
             stack.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -16),
-            stack.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -10)
+            stack.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -15)
         ])
     }
 
